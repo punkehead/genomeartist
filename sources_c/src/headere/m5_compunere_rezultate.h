@@ -88,7 +88,7 @@ void PrinteazaRezultate(REZULTATE_FISIER *rezulate, char *query, int query_size,
 
 void scrieInFisier(int fd, REZULTATE_FISIER *rezultate, char *query, int query_size, char *query_name, 
 					VECTOR_REZULTATE_PARTIALE *rezultate_partiale_directe, VECTOR_REZULTATE_PARTIALE *rezultate_partiale_complementare,
-					struct FISIER_DATE* fisiere, char *ext_mem, int max_cnt, time_t timp_total_executie, int contorAlinieriCuNucleuPreaMic,
+					struct FISIER_DATE* fisiere, char *ext_mem, int max_cnt, size_t timp_total_executie, int contorAlinieriCuNucleuPreaMic,
 					int lungime_minima_nucleu);
 					
 void elibereazaRezultat(REZULTAT_COMPUNERE *solutie);
