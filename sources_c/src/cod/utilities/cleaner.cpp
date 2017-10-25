@@ -2,7 +2,7 @@
 	#include <stdio.h>
 	#include <sys/types.h>
 	#include <sys/mman.h>
-	#include <mqueue.h>
+	#include <sys/fcntl.h>
 	#include <string.h>
 	#include <stdlib.h>
 	#include <errno.h>
